@@ -1,0 +1,5 @@
+SELECT COUNT(*), Country
+FROM Learners
+GROUP BY Country
+HAVING COUNT(*) > 10
+ORDER BY COUNT(*);

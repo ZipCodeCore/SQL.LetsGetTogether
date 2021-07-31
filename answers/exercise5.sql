@@ -1,0 +1,4 @@
+SELECT COUNT(*), Country
+FROM Learners
+GROUP BY Country
+ORDER BY COUNT(*) DESC;
