@@ -1,0 +1,3 @@
+SELECT COUNT(STUDENTS),Country
+FROM Learners
+GROUP BY Country;
