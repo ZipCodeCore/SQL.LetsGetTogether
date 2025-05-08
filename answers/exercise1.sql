@@ -1,0 +1,4 @@
+SELECT *
+FROM Enrolments AS E
+LEFT JOIN Students AS S
+ON E.STUDENT_ID=S.STUDENT_ID;
