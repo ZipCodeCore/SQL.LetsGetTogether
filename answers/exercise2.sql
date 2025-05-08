@@ -1,0 +1,1 @@
+SELECT * FROM Students INNER JOIN Enrolment ON Enrolment.StudentID=Students.StudentID;
